@@ -4,7 +4,7 @@
 
 ### Array & List
 
-\_ Practice Questions
+- Practice Questions
 
 1. Given an array with some integer type values. Write a python script to sort array values.
 2. Given a list of heterogenous elements. Write a python script to remove all the non int values from the list.
