@@ -142,7 +142,8 @@ head.delete_first()
 head.delete_last()
 head.delete_item(4)
 
+#for iterator
 for i in head:
     print(i,end=' ')
-
-# head.print_LL()
+#for direct 
+head.print_LL()
