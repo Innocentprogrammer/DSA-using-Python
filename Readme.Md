@@ -16,10 +16,10 @@
 
 - Practice Questions
 
-1. Define a python class Person with instance object variables name and age. Set Instance object variables in **init**() nethod. Also define show() method to display name and age of a person.
+1. Define a python class Person with instance object variables name and age. Set Instance object variables in __init__() nethod. Also define show() method to display name and age of a person.
 2. Define a class Circle with instance object variable radius. Provide setter and getter for radius. Also define getArea() and getCircumference() methods.
 3. Define a class Rectangle with length and breadth as instance object variables. Provide setDimensions(), showDimensions() and getArea() method in it.
-4. Define a class Book with instance object variables bookid, title, and price. Initialise them via **init**() method. Also define method to show book variables.
+4. Define a class Book with instance object variables bookid, title, and price. Initialise them via __init__() method. Also define method to show book variables.
 5. Define a class Team with instance object variable a list of team member names. Provide methods to input member names and display member names.
 
 ## Day 2:
@@ -29,7 +29,7 @@
 - Practice Questions
 
 1. Define a class Node to describe a node of singly linked list.
-2. Define a class SLL to implement Singly Linked List with __init()__ method to create and initialise start reference variable
+2. Define a class SLL to implement Singly Linked List with __init__() method to create and initialise start reference variable
 3. Define a method is_empty() to check if linked list is empty in SLL class.
 4. In class SLL, define a method insert_at_start() to insert an element at the starting of the list.
 5. In class SLL, define a method insert_at_last() to insert an element at the end of the list.
@@ -48,7 +48,7 @@
 - Practice Questions
 
 1. Define a class Node to describe a node of Doubly linked list.
-2. Define a class SLL to implement Doubly Linked List with __init()__ method to create and initialise start reference variable
+2. Define a class DLL to implement Doubly Linked List with __init__() method to create and initialise start reference variable
 3. Define a method is_empty() to check if linked list is empty in DLL class.
 4. In class DLL, define a method insert_at_start() to insert an element at the starting of the list.
 5. In class DLL, define a method insert_at_last() to insert an element at the end of the list.
@@ -59,3 +59,22 @@
 10. In class DLL, define a method delete_first() to delete first element from the list.
 11. In class DLL, define a method delete_last() to delete last element from the list.
 12. In class DLL, define a method delete_item() to delete specified element from the list.
+
+## Day 4
+
+### Circular Linked List
+
+- Practice Questions
+
+1. Define a class Node to describe a node of Circular linked list.
+2. Define a class CLL to implement Circular Linked List with __init__() method to create and initialise start reference variable
+3. Define a method is_empty() to check if linked list is empty in CLL class.
+4. In class CLL, define a method insert_at_start() to insert an element at the starting of the list.
+5. In class CLL, define a method insert_at_last() to insert an element at the end of the list.
+6. In class CLL, define a method search() to search an node with specified element value.
+7. In class CLL, define a method insert_after() to insert new node after a given node of the list.
+8. In class CLL, define a method to print all the element of list.
+9. In class CLL, define a method delete_first() to delete first element from the list.
+10. In class CLL, define a method delete_last() to delete last element from the list.
+11. In class CLL, define a method delete_item() to delete specified element from the list.
+12. In class CLL, implement iterator for CLL to access all the elements of the list in a sequence.
