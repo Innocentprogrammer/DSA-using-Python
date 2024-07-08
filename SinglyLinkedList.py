@@ -6,7 +6,7 @@ class Node:
         self.next=next
 
 
-# Q2 Define a class SLL to implement Singly Linked List with __init()__ method to create and initialise start reference variable
+# Q2 Define a class SLL to implement Singly Linked List with __init__() method to create and initialise start reference variable
 
 class SLL:
     def __init__(self, head=None):
