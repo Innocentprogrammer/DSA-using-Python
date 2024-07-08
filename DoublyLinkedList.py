@@ -7,7 +7,7 @@ class Node:
         self.next = next
 
 
-# Q2 Define a class DLL to implement Doubly Linked List with __init()__ method to create and initialise start reference variable
+# Q2 Define a class DLL to implement Doubly Linked List with __init__() method to create and initialise start reference variable
 
 class DLL: 
     def __init__(self, start=None):
@@ -113,7 +113,7 @@ class DLL:
                     temp=temp.next
 
 
-# Q12 In class DLL, implement iterator for SLL to access all the elements of the list in a sequence.
+# Q12 In class DLL, implement iterator for DLL to access all the elements of the list in a sequence.
 
     def __iter__(self):
         return DLLIterator(self.start)
