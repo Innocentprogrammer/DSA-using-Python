@@ -67,7 +67,7 @@
 - Practice Questions
 
 1. Define a class Node to describe a node of Circular linked list.
-2. Define a class CLL to implement Circular Linked List with __init__() method to create and initialise start reference variable
+2. Define a class CLL to implement Circular Linked List with __init__() method to create and initialise last reference variable
 3. Define a method is_empty() to check if linked list is empty in CLL class.
 4. In class CLL, define a method insert_at_start() to insert an element at the starting of the list.
 5. In class CLL, define a method insert_at_last() to insert an element at the end of the list.
