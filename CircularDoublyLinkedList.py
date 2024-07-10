@@ -22,47 +22,31 @@ class CDLL:
 # Q4. In class CDLL, define a method insert_at_start() to insert an element at the starting of the list.
 
     def insert_at_start(self,data):
-        # newNode=Node(data)
-        # if self.is_empty():
-        #     newNode=Node(newNode,data,newNode)
-        # else:
-        #     newNode=Node(self.start.prev, data, self.start)
-        #     self.start.prev.next=newNode
-        #     self.start.prev=newNode
-        # self.start=newNode
-        n=Node(data)
+        newNode=Node(data)
         if self.is_empty():
-            n.next=n
-            n.prev=n
+            newNode=Node(newNode,data,newNode)
         else:
-            n.next=self.start
-            n.prev=self.start.prev
-            self.start.prev.next=n
-            self.start.prev=n
-        self.start=n  
+            newNode=Node(self.start.prev, data, self.start)
+            self.start.prev.next=newNode
+            self.start.prev=newNode
+        self.start=newNode
 
 
 # Q5. In class CDLL, define a method insert_at_last() to insert an element at the end of the list.
 
     def insert_at_last(self,data):
-        # newNode=Node(data)
-        # if self.is_empty():
-        #     newNode=Node(newNode,data,newNode)
-        #     self.start=newNode
-        # else:
-        #     newNode=Node(self.start.prev,data,self.start)
-        #     self.start.prev.next=newNode
-        #     self.start.prev=newNode
-        n=Node(data)
+        newNode=Node(data)
         if self.is_empty():
-            n.next=n
-            n.prev=n
-            self.start=n 
+            newNode=Node(newNode,data,newNode)
+            self.start=newNode
+        if self.start.prev==self.start:
+            newNode=Node(self.start,data,self.start)
+            self.start.prev=newNode 
+            self.start.next=newNode
         else:
-            n.next=self.start   
-            n.prev=self.start.prev
-            n.prev.next=n
-            self.start.prev=n
+            newNode=Node(self.start.prev,data,self.start)
+            self.start.prev.next=newNode
+            self.start.prev=newNode
         
 
 # Q6. In class CDLL, define a method search() to search an node with specified element value.
@@ -85,27 +69,17 @@ class CDLL:
 # Q7. In class CDLL, define a method insert_after() to insert new node after a given node of the list.
 
     def insert_after(self,temp,data):
-        # if temp is not None:
-        #     newNode=Node(temp,data,temp.next)
-        #     temp.next.prev=newNode
-        #     temp.next=newNode
-        #     if temp == self.start:
-        #         self.start=newNode
         if temp is not None:
-            n=Node(data)
-            n.next=temp.next 
-            n.prev=temp
-            temp.next.prev=n
-            temp.next=n
+            newNode=Node(temp,data,temp.next)
+            temp.next.prev=newNode
+            temp.next=newNode
+            if temp == self.start:
+                self.start=newNode
 
 
 # Q8. In class CDLL, define a method to print all the element of list.
 
     def printCDLL(self):
-        # temp=self.start 
-        # while temp.next != self.start:
-        #     print(temp.data, end=" ")
-        #     temp=temp.next
         temp=self.start 
         if temp is not None:
             print(temp.data, end=" ")
@@ -118,64 +92,37 @@ class CDLL:
 # Q9. In class CDLL, define a method delete_first() to delete first element from the list.
 
     def delete_first(self):
-        # if self.start == self.start.prev:
-        #     self.start=None
-        # else:
-        #     self.start.prev.next=self.start.next 
-        #     self.start.next.prev=self.start.prev
-        #     self.start=self.start.next
-        if self.start is not None:
-            if self.start.next == self.start:
-                self.start=None 
-            else:
-                self.start.prev.next=self.start.next
-                self.start.next.prev=self.start.prev
-                self.start=self.start.next
+        if self.start == self.start.prev:
+            self.start=None
+        else:
+            self.start.prev.next=self.start.next 
+            self.start.next.prev=self.start.prev
+            self.start=self.start.next
 
 
 # Q10. In class CDLL, define a method delete_last() to delete last element from the list.
 
     def delete_last(self):
-        # if self.start == self.start.prev:
-        #     self.start=None
-        # else:
-        #     self.start.prev.prev.next=self.start 
-        #     self.start.prev=self.start.prev.prev
-        if self.start is not None:
-            if self.start.next == self.start:
-                self.start=None
-            else:
-                self.start.prev.prev.next=self.start 
-                self.start.prev=self.start.prev.prev 
+        if self.start == self.start.prev:
+            self.start=None
+        else:
+            self.start.prev.prev.next=self.start 
+            self.start.prev=self.start.prev.prev
 
 
 # Q11. In class CDLL, define a method delete_item() to delete specified element from the list.
 
     def delete_Item(self,data):
-        # if self.start == self.start.prev:
-        #     if self.start.data == data:
-        #         self.start=None
-        # if self.start.next.prev==self.start:
-        #     if self.start.data == data:
-        #         self.start.prev=self.start
-        #         self.start.next=self.start
-        # else:
-        #     temp=self.start
-        #     while temp.next != self.start:
-        #         if temp.data == data:
-        #             temp.prev.next=temp.next
-        #             temp.next.prev=temp.prev
-        #         temp=temp.next
-        if self.start is not None:
-            temp = self.start 
-            if temp.data==data:
+        if not self.is_empty():
+            if self.start.data==data:
                 self.delete_first()
             else:
-                temp=temp.next 
-                while temp is not self.start:
+                temp=self.start
+                while temp.next != self.start:
                     if temp.data==data:
-                        temp.next.prev=temp.prev
                         temp.prev.next=temp.next
+                        temp.next.prev=temp.prev
+                    temp=temp.next
 
 
 # Q12. In class CDLL, implement iterator for CDLL to access all the elements of the list in a sequence.
