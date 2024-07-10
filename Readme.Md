@@ -83,7 +83,7 @@
 
 ### Circular Doubly Linked List 
 
-- Practice Question 
+- Practice Questions 
 
 1. Define a class Node to describe a node of Circular doubly linked list.
 2. Define a class CDLL to implement Circular Doubly Linked List with __init__() method to create and initialise start reference variable
@@ -96,4 +96,8 @@
 9. In class CDLL, define a method delete_first() to delete first element from the list.
 10. In class CDLL, define a method delete_last() to delete last element from the list.
 11. In class CDLL, define a method delete_item() to delete specified element from the list.
-12. In class CDLL, implement iterator for CDLL to access all the elements of the list in a sequence.
+12. In class CDLL, implement iterator for CDLL to access all the elements of the list in a sequence. 
+
+## Day 6 
+
+- Practice questions on the GFG platform of Basic and Easy level.
