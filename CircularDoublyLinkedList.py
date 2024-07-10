@@ -127,26 +127,7 @@ class CDLL:
 
 # Q12. In class CDLL, implement iterator for CDLL to access all the elements of the list in a sequence.
 
-    def __iter__(self):
-        return CDLLIterator(self.start)
-    
-class CDLLIterator:
-    def __init__(self,start):
-        self.current=start
-        self.start=start 
-        self.count=0
-    def __iter__(self):
-        return self 
-    def __next__(self):
-        if self.current is None:
-            return StopIteration
-        if self.current == self.start and self.count == 1:
-            return StopIteration
-        else: 
-            self.count = 1
-        data=self.current.data 
-        self.current=self.current.next 
-        return data
+# Not Solved
 
 
 #Driver Code
