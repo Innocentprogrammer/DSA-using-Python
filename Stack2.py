@@ -46,7 +46,7 @@ class Stack(list):
 
 # Q7. Implement a way to restrict use of insert() method of list class from stack object.
 
-    def insert(self):
+    def insert(self,index,data):
         raise AttributeError("Stack does not support insert() method")
     
 mylist = Stack()
