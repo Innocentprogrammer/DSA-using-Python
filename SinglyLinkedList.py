@@ -128,7 +128,8 @@ class SLLIterator:
 
 
 #driver code
-
+# for using SLL class in stack we have to comment the driver code
+'''
 head=SLL()
 head.insert_at_start(2)
 head.insert_at_last(4)
@@ -147,3 +148,4 @@ for i in head:
     print(i,end=' ')
 #for direct 
 head.print_LL()
+'''
