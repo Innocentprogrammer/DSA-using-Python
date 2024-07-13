@@ -1,3 +1,5 @@
+# Stack Using Linked List
+
 # Q1. Define a class Stack to implement stack data structure using Singly Linked List concept. Define __init__() method to initialise start reference variable and item_count variable to keep track of number of elements in stack.
 
 class Node:
