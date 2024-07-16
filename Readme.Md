@@ -194,6 +194,8 @@
 6. In Queue class, define get_rear() method to return rear element of the queue.  
 7. In Queue class, define size() method to return size of the queue that is number of items present in the queue.
 
+## Day 12
+
 ### Deque Using List 
 
 - Practice Questions 
@@ -202,8 +204,23 @@
 2. Define a method is_empty() to check if deque is empty in Deque class.
 3. In Deque class, define insert_front() method to add data at front end of the deque.
 4. In Deque class, define insert_rear() method to add data at rear end of the deque.
-5. In Deque class, define insert_front() method to remove front element from the deque.
+5. In Deque class, define delete_front() method to remove front element from the deque.
 6. In Deque class, define delete_rear() method to remove rear element from the deque.
-7. In Deque class, define get_front() method to return front element from the deque.
-8. In Deque class, define get_rear() method to return rear element from the deque.
+7. In Deque class, define get_front() method to return front element of the deque.
+8. In Deque class, define get_rear() method to return rear element of the deque.
 9. In Deque class, define size() method to return size of the deque that is number of items present in deque.
+
+### Deque Using Doubly Linked List 
+
+- Practice Questions 
+
+1. Define a class Node with instance object member Variables prev, item & next. 
+2. Define a class Deque to implement deque data structure using doubly linked list concept. Define __init__() method to initialise front and rear reference variable; and item_count variable to keep trrack of number of elements in the deque.
+3. Define a method is_empty() to check if the Deque class. 
+4. In Deque class, define insert_front() method to add data at front end of the deque.
+5. In Deque class, define insert_rear() method to add data at rear end of the deque.
+6. In Deque class, define delete_front() method to remove front element from the deque.
+7. In Deque class, define delete_rear() method to remove rear element from the deque.
+8. In Deque class, define get_front() method to return front element of the deque.
+9. In Deque class, define get_rear() method to return rear element of the deque.
+10. In Deque class, define size() method to return size of the deque that is number of items present in deque.
