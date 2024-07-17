@@ -22,6 +22,9 @@
 4. Define a class Book with instance object variables bookid, title, and price. Initialise them via __init__() method. Also define method to show book variables.
 5. Define a class Team with instance object variable a list of team member names. Provide methods to input member names and display member names.
 
+:tada::tada: END OF DAY1 :tada::tada:
+
+
 ## Day 2:
 
 ### Singly Linked List
@@ -40,6 +43,9 @@
 10. In class SLL, define a method delete_first() to delete first element from the list.
 11. In class SLL, define a method delete_last() to delete last element from the list.
 12. In class SLL, define a method delete_item() to delete specified element from the list.
+
+:tada::tada: END OF DAY2 :tada::tada:
+
 
 ## Day 3:
 
@@ -60,6 +66,9 @@
 11. In class DLL, define a method delete_last() to delete last element from the list.
 12. In class DLL, define a method delete_item() to delete specified element from the list.
 
+:tada::tada: END OF DAY3 :tada::tada:
+
+
 ## Day 4
 
 ### Circular Linked List
@@ -78,6 +87,9 @@
 10. In class CLL, define a method delete_last() to delete last element from the list.
 11. In class CLL, define a method delete_item() to delete specified element from the list.
 12. In class CLL, implement iterator for CLL to access all the elements of the list in a sequence.
+
+:tada::tada: END OF DAY4 :tada::tada:
+
 
 ## Day 5
 
@@ -98,9 +110,15 @@
 11. In class CDLL, define a method delete_item() to delete specified element from the list.
 12. In class CDLL, implement iterator for CDLL to access all the elements of the list in a sequence.
 
+:tada::tada: END OF DAY5 :tada::tada:
+
+
 ## Day 6
 
 - Practice questions on the GFG platform of Basic and Easy level.
+
+:tada::tada: END OF DAY6 :tada::tada:
+
 
 ## Day 7
 
@@ -127,6 +145,9 @@
 6. In Stack class, define size() method to return size of the stack that is number of items present in the stack.
 7. Implement a way to restrict use of insert() method of list class from stack object.
 
+:tada::tada: END OF DAY7 :tada::tada:
+
+
 ## Day 8
 
 ### Stack Using Linked List Concept
@@ -139,6 +160,9 @@
 4. In Stack class, define pop() method to remove top element from the stack.
 5. In Stack class, define peak() method to return top element on the stack.
 6. In Stack class, define size() method to return size of the stack that is number of items present in the stack.
+
+:tada::tada: END OF DAY8 :tada::tada:
+
 
 ## Day 9
 
@@ -166,6 +190,9 @@
 6. In Stack class, define peak() method to return top element on the stack.
 7. In Stack class, define size() method to return size of the stack that is number of item present in stack.
 
+:tada::tada: END OF DAY9 :tada::tada:
+
+
 ## Day 10 
 
 ### Queue Using List 
@@ -180,6 +207,9 @@
 6. In Queue class, define get_rear() method to return rear element of the queue.
 7. In Queue class, define size() method to return size of the queue that is number of items present in the queue.
 
+:tada::tada: END OF DAY10 :tada::tada:
+
+
 ## Day 11 
 
 ### Queue Using Linked List 
@@ -193,6 +223,9 @@
 5. In Queue class, define get_front() method to return front element of the queue. 
 6. In Queue class, define get_rear() method to return rear element of the queue.  
 7. In Queue class, define size() method to return size of the queue that is number of items present in the queue.
+
+:tada::tada: END OF DAY11 :tada::tada:
+
 
 ## Day 12
 
@@ -224,3 +257,31 @@
 8. In Deque class, define get_front() method to return front element of the deque.
 9. In Deque class, define get_rear() method to return rear element of the deque.
 10. In Deque class, define size() method to return size of the deque that is number of items present in deque.
+
+:tada::tada: END OF DAY12 :tada::tada:
+
+
+## Day 13 
+
+### Priority Queue Using List
+
+- Practice Questions
+
+1. Define a class PriorityQueue to implement priority queue data structure using list. Provide __init__() method to create a list object (inittally empty).
+2. Define a push method in PriorityQueue class to insert new data with given priority.
+3. Define a pop method in PriorityQueue class, which returns the highest priority data stored in the priority queue data structure. Raise exception in priority queue is empty.
+4. Define a is_epmty method in PriorityQueue class to check if the priority queue is empty.
+5. In class PriorityQueue, define a method size to return the number of elements present in the priority queue.
+
+### Priority Queue Using Doubly Linked List
+
+- Practice Questions
+
+1. Define a Node class with instance member variables item, priority and next.
+2. Define a class PriorityQueue to implement priority queue data structure using singly linked list. Provide __init__() method to create a start reference variable (initially containing None) and item_count variable (initially 0).
+3. Define a push method in PriorityQueue class to insert new data with given priority.
+4. Define a pop method in PriorityQueue class, which returns the highest priority data stored in the priority queue data structure. Raise exception if priority queue is empty.
+5. Define a is_empty method in PriorityQueue class to check if priority queue is empty. 
+6. In class PriorityQueue, define a method size to return the number of elements present in priority queue.
+
+:tada::tada: END OF DAY13 :tada::tada:
