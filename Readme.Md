@@ -320,4 +320,17 @@
 6. In class BST, define a method to implement preorder traversal.
 7. In class BST, define a method to implement postorder traversal.
 
-:tada::tada: END OF DAY14 :tada::tada:
+
+:tada::tada: END OF DAY15 :tada::tada:
+
+## Day 16
+
+### BST Deletion
+
+1. In class BST, define a method to find minimum value item node.
+2. In class BST, define a method to find maximum value item node.
+3. In class BST, define a method to delete a node from binary search tree. 
+4. In class BST, define a method size to return the number of elements present in the BST. 
+
+
+:tada::tada: END OF DAY16 :tada::tada:
