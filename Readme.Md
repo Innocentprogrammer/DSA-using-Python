@@ -305,8 +305,8 @@
 10. Write a recursive function to calculate factorial of a number.
 11. Write a recursive function to calculate sum of square of first N natural numbers.
 
-
 :tada::tada: END OF DAY14 :tada::tada:
+
 
 ## Day 15 
 
@@ -320,8 +320,8 @@
 6. In class BST, define a method to implement preorder traversal.
 7. In class BST, define a method to implement postorder traversal.
 
-
 :tada::tada: END OF DAY15 :tada::tada:
+
 
 ## Day 16
 
@@ -332,8 +332,8 @@
 3. In class BST, define a method to delete a node from binary search tree. 
 4. In class BST, define a method size to return the number of elements present in the BST. 
 
-
 :tada::tada: END OF DAY16 :tada::tada:
+
 
 ## Day 17 
 
@@ -346,8 +346,6 @@
 5. In class Graph, define has_edge() method to check whether two given vertices are connected by an edge or not.
 6. In class Graph, define print_adj_matrix() method to print adjacency matrix.
 
-## Day 18 
-
 ### Adjacency List Implementation of Graph 
 
 1. Write a class Graph to implement list representation of graph data structure.
@@ -356,3 +354,5 @@
 4. In class Graph, define remove_edge() method to remove an edge from the graph. 
 5. In class Graph, define has_edge() method to check whether an edge exists or not for a given pair of vertices.
 6. In class Graph, define print_adj_list() method to print adjacency list of graph.
+
+:tada::tada: END OF DAY17 :tada::tada:
