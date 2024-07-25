@@ -345,3 +345,14 @@
 4. In class Graph, define remove_edge() method to remove an edge from the graph. 
 5. In class Graph, define has_edge() method to check whether two given vertices are connected by an edge or not.
 6. In class Graph, define print_adj_matrix() method to print adjacency matrix.
+
+## Day 18 
+
+### Adjacency List Implementation of Graph 
+
+1. Write a class Graph to implement list representation of graph data structure.
+2. In class Graph, define __init__() method to initialise instance object variable vertex_count and a dict adj_list where key is vertex number and value is a list of adjacent vertices.
+3. In class Graph, define add_edge() method add an edge in the graph with given vertices and weight. 
+4. In class Graph, define remove_edge() method to remove an edge from the graph. 
+5. In class Graph, define has_edge() method to check whether an edge exists or not for a given pair of vertices.
+6. In class Graph, define print_adj_list() method to print adjacency list of graph.
