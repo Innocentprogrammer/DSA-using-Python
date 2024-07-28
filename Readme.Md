@@ -356,3 +356,18 @@
 6. In class Graph, define print_adj_list() method to print adjacency list of graph.
 
 :tada::tada: END OF DAY17 :tada::tada:
+
+
+## Day 18
+
+### Bubble Sort and Modified Bubble Sort
+
+1. Write a python function to implement bubble sort. 
+2. Write a python function to implement modified bubble sort.
+
+### Selection Sort 
+
+1. Write a python function to implement selection sort. 
+
+
+:tada::tada: END OF DAY18 :tada::tada:
