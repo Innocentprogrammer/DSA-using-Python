@@ -312,6 +312,8 @@
 
 ### BST Insertion
 
+- Practice Questions 
+
 1. Define a class Node with instance variables left, item, and right. The variables left and right are used to refer left and right child node. The item variable is used to hold data item.
 2. Define a class BST to implement Binary Search Tree data structure. Make __init__() method to create root instance variable to hold the reference of root node. 
 3. In class BST, define insert method to store new data item in the binary search tree.
@@ -327,6 +329,8 @@
 
 ### BST Deletion
 
+- Practice Questions 
+
 1. In class BST, define a method to find minimum value item node.
 2. In class BST, define a method to find maximum value item node.
 3. In class BST, define a method to delete a node from binary search tree. 
@@ -339,6 +343,8 @@
 
 ### Adjacency Matrix Implementation of Graph 
 
+- Practice Questions 
+
 1. Write a class Graph to implement adjacency matrix representation of simple and undirectes graph. 
 2. In class Graph, define __init__() method to initialise vertex_count and adj_matrix (list of lists)
 3. In class Graph, define add_edge() method add an edge in the graph with given weight. 
@@ -347,6 +353,8 @@
 6. In class Graph, define print_adj_matrix() method to print adjacency matrix.
 
 ### Adjacency List Implementation of Graph 
+
+- Practice Questions 
 
 1. Write a class Graph to implement list representation of graph data structure.
 2. In class Graph, define __init__() method to initialise instance object variable vertex_count and a dict adj_list where key is vertex number and value is a list of adjacent vertices.
@@ -362,12 +370,26 @@
 
 ### Bubble Sort and Modified Bubble Sort
 
+- Practice Questions 
+
 1. Write a python function to implement bubble sort. 
 2. Write a python function to implement modified bubble sort.
 
 ### Selection Sort 
 
+- Practice Question
+
 1. Write a python function to implement selection sort. 
 
-
 :tada::tada: END OF DAY18 :tada::tada:
+
+
+# Day 19
+
+## Insertion Sort
+
+- Practice Question
+
+1. Write a python function to implement Insertion sort
+
+:tada::tada: END OF DAY19 :tada::tada:
