@@ -393,3 +393,20 @@
 1. Write a python function to implement Insertion sort
 
 :tada::tada: END OF DAY19 :tada::tada:
+
+
+# Day 20 
+
+## Quick Sort 
+
+-Practice Question 
+
+1. Write a python function to implement quick sort. 
+
+## Merge Sort 
+
+-Practice Question 
+
+1. Write a python function to implement merge sort. 
+
+:tada::tada: END OF DAY20 :tada::tada:
