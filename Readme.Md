@@ -410,3 +410,20 @@
 1. Write a python function to implement merge sort. 
 
 :tada::tada: END OF DAY20 :tada::tada:
+
+
+# Day 21
+
+## Heap and Heap Sort 
+
+-Practice Question 
+
+1. Define a class Heap to implement Heap data structure with __init__ method to create empty heap list. 
+2. In class Heap, define a method to create a heap from a given list of element. 
+3. In class Heap, define a method insert to insert a given element in the heap at appropriate position. 
+4. In class Heap, define a top method which returns the top element of heap. Raise an exception if Heap is empty. 
+5. Define a class EmptyHeapException to describe custom exception.
+6. In class Heap, define a method delete which delete the top element and returns it. Raise an exception if Heap is empty. 
+7. In class Heap, define a method heapSort to sort a given list with help of heap.
+
+:tada::tada: END OF DAY21 :tada::tada:
