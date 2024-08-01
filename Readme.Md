@@ -427,3 +427,15 @@
 7. In class Heap, define a method heapSort to sort a given list with help of heap.
 
 :tada::tada: END OF DAY21 :tada::tada:
+
+
+# Day 22 
+
+## Searching 
+
+- Practice Questions
+
+1. Write a python function to implement Linear Search. 
+2. Write a python function to implement Binary Search. 
+
+:tada::tada: END OF DAY22 :tada::tada:
