@@ -399,13 +399,13 @@
 
 ## Quick Sort 
 
--Practice Question 
+- Practice Question 
 
 1. Write a python function to implement quick sort. 
 
 ## Merge Sort 
 
--Practice Question 
+- Practice Question 
 
 1. Write a python function to implement merge sort. 
 
@@ -416,7 +416,7 @@
 
 ## Heap and Heap Sort 
 
--Practice Question 
+- Practice Question 
 
 1. Define a class Heap to implement Heap data structure with __init__ method to create empty heap list. 
 2. In class Heap, define a method to create a heap from a given list of element. 
